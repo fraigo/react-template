@@ -1,0 +1,32 @@
+  .col2{
+    width: 16.6%;
+    display:inline-block;
+  }
+  .col3{
+    width: 25%;
+    display:inline-block;
+  }
+  .col4{
+    width: 33%;
+    display:inline-block;
+  }
+  .col6{
+    width: 50%;
+    display:inline-block;
+  }
+  
+
+  @media (max-width: 600px){
+    .col2{
+      width: 100%;
+    }
+    .col3{
+      width: 100%;
+    }
+    .col4{
+      width: 100%;
+    }
+    .col6{
+      width: 100%;
+    }
+  }

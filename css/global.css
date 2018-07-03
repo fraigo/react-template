@@ -1,0 +1,11 @@
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0px;
+  }
+  
+  *{
+    --color1: #040;
+    --color2: #8C8;
+    --colorLight: #DFD;
+    --colorDark: #020;
+  }
