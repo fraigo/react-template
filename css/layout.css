@@ -15,6 +15,23 @@
     display:inline-block;
   }
   
+  .inline{
+    display: inline-block;
+  }
+
+  .vertical-center{
+    vertical-align: text-bottom;
+  }
+
+  .medium-height{
+    height: 60px;
+    line-height:60px;
+  }
+
+
+  .sm-right{
+    text-align: right;
+  }
 
   @media (max-width: 600px){
     .col2{
@@ -29,4 +46,12 @@
     .col6{
       width: 100%;
     }
+
+    .sm-right{
+      text-align: inherit;
+    }
+    .xs-center{
+      text-align: center;
+    }
+  
   }

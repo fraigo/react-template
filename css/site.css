@@ -1,21 +1,39 @@
+  a:link{
+    color: var(--colorLight);
+    text-decoration: none;
+  }
+
+
+  .navbar{
+    padding: 8px;
+    margin: var(--margin1);
+    border-radius: var(--radius1);
+    background-color: var(--color1);
+    color: var(--colorLight);
+  }
+
+  .navbar a:link, .navbar a:visited, .navbar a:active {
+    color: var(--colorLight);
+    padding: 8px 4px;
+  }
 
   .header{
     padding: 20px;
     font-size: 20px;
     text-align: center;
-    margin: 6px;
-    border-radius: 5px;
+    margin: var(--margin1);
+    border-radius: var(--radius1);
     background-color: var(--color2);
     color: var(--color1);
   }
 
 
   .card{
-    border-radius: 5px;
+    border-radius: var(--radius1);
     background-color: var(--colorLight);
     color: var(--color1);
     border-color: var(--color2);
-    margin: 4px;
+    margin: var(--margin1);
   }
   
   .card > .card-header {
@@ -26,7 +44,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    border-radius: 5px 5px 0px 0px;
+    border-radius: var(--radius1) var(--radius1) 0px 0px;
   }
 
   .card > .card-content {

@@ -8,6 +8,13 @@ class MainView extends React.Component {
     render() {
       return (
         <main>
+          <NavBar
+            title="React template"
+            image="images/icon.png"
+          >
+            <a href="#menu1">Menu1</a>
+            <a href="#menu2">Menu2</a>
+          </NavBar>
           <Header 
             title="React template"
             subtitle="With component examples"
